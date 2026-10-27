@@ -1,12 +1,11 @@
 {
-  "version": "1.7.2",
+  "version": "1.7.3",
   "date": "2026-10-27",
   "notes": [
-    "新增一键更新：应用内下载、校验、替换本体并自动重启",
-    "更新包支持 SHA-256 校验，下载损坏会拦下并提示重试",
-    "更新页显示下载进度与替换阶段提示；失败保留安装包并可转手动下载"
+    "纯电车「行程统计」页不再被误判为过程照：累计行驶里程（如 3550km）可正确识别为里程表照片并归档",
+    "刻意不识别「启动后行驶里程」，避免 0.0km 小里程被当成总里程造成新错分"
   ],
   "force": false,
-  "url": "https://github.com/Blackmidoudou/hongqi-archiver-update/releases/download/v1.7.2/hongqi-archiver-1.7.2-macOS-arm64.zip",
-  "sha256": "8901fc6ba03e27b81392c7b2e575a45ab89405faafda471a8365af161be1f313"
+  "url": "https://github.com/Blackmidoudou/hongqi-archiver-update/releases/download/v1.7.3/hongqi-archiver-1.7.3-macOS-arm64.zip",
+  "sha256": "85203aae46aa601cc16a285311e5911d89f44d897ca53ab82eb22075ec1c7c46"
 }
