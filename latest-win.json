@@ -4,9 +4,9 @@
   "notes": [
     "HS6 等混动车型仪表盘右下角的总里程（无关键词，如 6101km）可正确识别并归档",
     "此前这类照片因年份防误判规则被误判为过程照，现带 km 后缀的数字直接作为里程候选",
-    "10-26 批次回归：276 张仅 2 张目标照片变化，自动归档 162→164，无退化"
+    "修复 Windows 包启动报错（Wails 构建标签缺失）的问题，请重新下载本包"
   ],
   "force": false,
   "url": "https://github.com/Blackmidoudou/hongqi-archiver-update/releases/download/v1.7.4/hongqi-archiver-1.7.4-windows-x64.zip",
-  "sha256": "b2df0559bb814f8c76ed4a5142ae0311c7508ea81e61457cbb2472cb9b14fab1"
+  "sha256": "ef7bf933e79e028fbdac40cebddb870e397d7174cd3f29bb4ea38821df7786a4"
 }
