@@ -1,0 +1,11 @@
+{
+  "version": "1.7.1",
+  "date": "2026-10-26",
+  "url": "https://github.com/Blackmidoudou/hongqi-archiver-update/releases/download/v1.7.1/hongqi-archiver-1.7.1-macOS-arm64.zip",
+  "notes": [
+    "修复竖排铭牌VIN识别：整车型号与VIN粘连导致无法匹配的问题",
+    "证件照（拍到车牌/VIN）匹配不上台账时转人工处理，不再挂到附近其他车",
+    "10-26 批次实测：自动归档 157→162，修复 14 张照片去向，无退化"
+  ],
+  "force": false
+}
