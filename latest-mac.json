@@ -1,12 +1,13 @@
 {
-  "version": "1.7.4",
-  "date": "2026-10-27",
+  "version": "1.7.5",
+  "date": "2026-10-28",
   "notes": [
-    "HS6 等混动车型仪表盘右下角的总里程（无关键词，如 6101km）可正确识别并归档",
-    "此前这类照片因年份防误判规则被误判为过程照，现带 km 后缀的数字直接作为里程候选",
-    "10-26 批次回归：276 张仅 2 张目标照片变化，自动归档 162→164，无退化"
+    "修复数字屏仪表总里程识别：里程数字与 km 单位被拆成两框时（如 85187 + km）仍可正确提取",
+    "修复车牌单字符误读：京N117D8 被读成京N11708（D→0）时仍可通过形近匹配归档",
+    "形近匹配命中多辆不同车时转人工处理，防止归错车",
+    "10-28 批次 392 张回归：自动归档 236→238，其余全部一致，无退化"
   ],
   "force": false,
-  "url": "https://github.com/Blackmidoudou/hongqi-archiver-update/releases/download/v1.7.4/hongqi-archiver-1.7.4-macOS-arm64.zip",
-  "sha256": "4572048191ee5bd51b0004ecb7d00f3baad62d3b85d25f8dc86e1fa09c3b87f0"
+  "url": "https://github.com/Blackmidoudou/hongqi-archiver-update/releases/download/v1.7.5/hongqi-archiver-1.7.5-macOS-arm64.zip",
+  "sha256": "5776ff4db6905f7b2724ca071ebe5d467ef673bf75c52c02b44a9578a41d59e8"
 }
