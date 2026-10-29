@@ -1,13 +1,17 @@
 {
-  "version": "1.7.5",
-  "date": "2026-10-28",
+  "version": "1.16.0",
+  "date": "2026-10-29",
   "notes": [
-    "修复数字屏仪表总里程识别：里程数字与 km 单位被拆成两框时（如 85187 + km）仍可正确提取",
-    "修复车牌单字符误读：京N117D8 被读成京N11708（D→0）时仍可通过形近匹配归档",
-    "形近匹配命中多辆不同车时转人工处理，防止归错车",
-    "10-28 批次 392 张回归：自动归档 236→238，其余全部一致，无退化"
+    "新：照片分拣三态判定（高置信自动归位 / 人工复核队列 / 直接转人工），弱证据不再静默归位",
+    "新：每张照片输出判定证据（规则/字段读数/分值/降级原因），界面可展开、Excel 可导出",
+    "新：人工复核可看照片大图并对照台账（车牌/委托书/里程/类型），接受/改车/无法归属后立即改写归位目标、三件套自动改名并重算文件夹标注",
+    "新：金标集 + 静默误分率回归基线（0.27%→0.00%）与回归门禁",
+    "新：脱敏经验包导出（设置→关于），用于群体经验校准；不含照片/VIN/车牌/文件名",
+    "优化：复核条目一键收起/折叠分组；OCR 识别率、定车率、自动归位率分开显示",
+    "优化：L4 里程「差0 且台账唯一候选」自动归位，减少保养文件夹缺里程表",
+    "Windows 包自带 VC++ 运行库与 ffmpeg/ffprobe，解压即用"
   ],
   "force": false,
-  "url": "https://github.com/Blackmidoudou/hongqi-archiver-update/releases/download/v1.7.5/hongqi-archiver-1.7.5-macOS-arm64.zip",
-  "sha256": "5776ff4db6905f7b2724ca071ebe5d467ef673bf75c52c02b44a9578a41d59e8"
+  "url": "https://github.com/Blackmidoudou/hongqi-archiver-update/releases/download/v1.16.0/hongqi-archiver-1.16.0-macOS-arm64.zip",
+  "sha256": "09176c48cbcc8afd0f67753f0e0a859b3d49f98c108857dbb12bdea8ed3f2f38"
 }
