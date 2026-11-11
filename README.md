@@ -8,6 +8,9 @@
   （包内容与官方 Release 完全一致，sha256 相同）。国内网络访问 GitHub 失败时，更新源改填：
   - Windows：`https://ghproxy.net/https://raw.githubusercontent.com/Blackmidoudou/hongqi-archiver-update/main/latest-win-cn.json`
   - macOS：`https://ghproxy.net/https://raw.githubusercontent.com/Blackmidoudou/hongqi-archiver-update/main/latest-mac-cn.json`
+  - 备用镜像（gh-proxy）：Windows `https://gh-proxy.com/https://raw.githubusercontent.com/Blackmidoudou/hongqi-archiver-update/main/latest-win-cn2.json`，
+    macOS `.../latest-mac-cn2.json`；清单也可走 jsDelivr：
+    `https://cdn.jsdelivr.net/gh/Blackmidoudou/hongqi-archiver-update@main/latest-win-cn2.json`
 - 安装包见 [Releases](../../releases)
 
 源代码在私有仓库 hongqi-archiver，本库仅承载发布产物。
