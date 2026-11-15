@@ -1,13 +1,13 @@
 {
-  "version": "1.17.0",
-  "date": "2026-11-10",
+  "version": "1.18.0",
+  "date": "2026-11-15",
   "notes": [
-    "新：预览/复核时可删除明确不需要的照片或视频——移入系统废纸篓/回收站（可恢复），同步从归位计划移除并删除归位暂存副本，金标记为不应归档",
-    "包含 Windows 路径分组修复：归位确认页恢复 保养/索赔/市场处置/其他/人工复核/人工处理 tab、相对路径显示、资源管理器定位",
-    "功能与 1.16 一致：三态判定、判定证据、人工复核闭环（看图对照台账/确认即归位/三件套改名/文件夹重算）、金标回归基线、脱敏经验包",
-    "Windows 包自带 VC++ 运行库与 ffmpeg/ffprobe，解压即用"
+    "安装包体积从 164.5MB 降到 53MB：改用自建精简 ffmpeg 构建，视频抽帧的解码能力全部保留（h264/hevc/mpeg4/h263/ProRes/AV1 等）",
+    "修复：Windows 一键更新此前会报「安装包里没有可用文件」——发布包已改为扁平结构，更新器同时兼容旧结构。升级到本版后，之后的一键更新恢复可用",
+    "Windows 包自带 VC++ 运行库与 ffmpeg/ffprobe，解压即用",
+    "macOS 版仍为 1.17.0，本版改动只涉及 Windows 打包与更新器"
   ],
   "force": false,
-  "url": "https://github.com/Blackmidoudou/hongqi-archiver-update/releases/download/v1.17.0/hongqi-archiver-1.17.0-windows-x64.zip",
-  "sha256": "6401ccde12eeb9959c7dc4b283323c42bfa4d9e98b1701922c81b1067e918503"
+  "url": "https://github.com/Blackmidoudou/hongqi-archiver-update/releases/download/v1.18.0/hongqi-archiver-1.18.0-windows-x64.zip",
+  "sha256": "61265f93e3f5fb9cb4e4d026bdffca971033f157848e4d0da6f2b756fb3d631c"
 }
