@@ -1,12 +1,13 @@
 {
-  "version": "1.19.1",
+  "version": "1.19.2",
   "date": "2026-11-17",
   "notes": [
-    "修复 Windows 启动/处理时闪控制台黑框（reg/powershell/ffmpeg 子进程统一隐藏窗口）",
-    "功能与 1.19.0 一致：证件识别（行驶证/机动车登记证/电子行驶证）、写死归位规则、多车牌主体修复",
-    "Windows 包为瘦身版+平铺结构（约 52MB）；mac/win 安装包托管 Gitee"
+    "识别范围业务类型可先勾选（未载入台账不再禁用），载入台账后按勾选生效",
+    "含 Windows 启动/处理闪黑框修复（子进程 CREATE_NO_WINDOW）",
+    "功能与 1.19.0 一致：证件识别、写死归位规则、多车牌主体修复、瘦身 Windows 包",
+    "安装包托管 Gitee（国内下载更快）"
   ],
   "force": false,
-  "url": "https://gitee.com/black-mi/hongqi-archiver-update/releases/download/v1.19.1/hongqi-archiver-1.19.1-macOS-arm64.zip",
-  "sha256": "8994f8d3972e6599ae4125a443262e2f5cc0295a02ab7249412c7fc9a9cb6d6e"
+  "url": "https://gitee.com/black-mi/hongqi-archiver-update/releases/download/v1.19.2/hongqi-archiver-1.19.2-macOS-arm64.zip",
+  "sha256": "f803039817ce153501d335c86c5364b7211246d6771d9d29798d40a6c52712c2"
 }
