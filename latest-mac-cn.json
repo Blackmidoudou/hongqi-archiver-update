@@ -1,13 +1,14 @@
 {
-  "version": "1.17.0",
-  "date": "2026-11-10",
+  "version": "1.19.0",
+  "date": "2026-11-17",
   "notes": [
-    "新：预览/复核时可删除明确不需要的照片或视频——移入系统废纸篓/回收站（可恢复），同步从归位计划移除并删除归位暂存副本，金标记为不应归档",
-    "包含 Windows 路径分组修复：归位确认页恢复 保养/索赔/市场处置/其他/人工复核/人工处理 tab、相对路径显示、资源管理器定位",
-    "功能与 1.16 一致：三态判定、判定证据、人工复核闭环（看图对照台账/确认即归位/三件套改名/文件夹重算）、金标回归基线、脱敏经验包",
-    "Windows 包自带 VC++ 运行库与 ffmpeg/ffprobe，解压即用"
+    "新：识别行驶证、机动车登记证、电子行驶证；证件命名 委托书号_类型_VIN_日期",
+    "新：写死归位规则——保养=基础三件套+证件；索赔=基础+证件+视频；市场处置=基础+视频不收证件；视频只进索赔/市场处置；不符合规则的保留原文件",
+    "新：终身免费保养业务类型并入保养",
+    "修复：多车牌照片按检测框最大的主体车牌归属（临牌参与比较），背景车车牌不再抢先",
+    "Windows 包保留瘦身 ffmpeg + 平铺结构（约 52MB，一键更新兼容）"
   ],
   "force": false,
-  "url": "https://ghproxy.net/https://github.com/Blackmidoudou/hongqi-archiver-update/releases/download/v1.17.0/hongqi-archiver-1.17.0-macOS-arm64.zip",
-  "sha256": "aea22af37c8ee57cf29b2cca75cbfb83ab9bec02234f2c639fd1e741798b9c78"
+  "url": "https://ghproxy.net/https://github.com/Blackmidoudou/hongqi-archiver-update/releases/download/v1.19.0/hongqi-archiver-1.19.0-macOS-arm64.zip",
+  "sha256": "7a06eac54563a7b0680659beda6b4339ecb8734158084cab2279e177434cc9f1"
 }
