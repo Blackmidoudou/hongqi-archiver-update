@@ -1,13 +1,14 @@
 {
-  "version": "1.19.2",
+  "version": "1.19.3",
   "date": "2026-11-17",
   "notes": [
-    "识别范围业务类型可先勾选（未载入台账不再禁用），载入台账后按勾选生效",
-    "含 Windows 启动/处理闪黑框修复（子进程 CREATE_NO_WINDOW）",
-    "功能与 1.19.0 一致：证件识别、写死归位规则、多车牌主体修复、瘦身 Windows 包",
-    "安装包托管 Gitee（国内下载更快）"
+    "更新页改为一键更新：打开设置→更新自动检查，发现新版本直接一键下载/校验/替换/重启",
+    "更新页直接展示本次更新内容（清单 notes）",
+    "内置默认更新源（Gitee），一般无需填写更新地址",
+    "含 Windows 闪黑框修复、识别范围可先勾选修复",
+    "功能与 1.19.0 一致：证件识别、写死归位规则、多车牌主体修复、瘦身 Windows 包"
   ],
   "force": false,
-  "url": "https://gitee.com/black-mi/hongqi-archiver-update/releases/download/v1.19.2/hongqi-archiver-1.19.2-windows-x64.zip",
-  "sha256": "0d3c3849f225fe45db592d69c035a59ab74529d08c436cdbfbcac3aa1e6d907e"
+  "url": "https://gitee.com/black-mi/hongqi-archiver-update/releases/download/v1.19.3/hongqi-archiver-1.19.3-windows-x64.zip",
+  "sha256": "c9b5f30b1967b220c9e3ff846c217bb058b3515f6f6e6a19640ad3059e3981bf"
 }
