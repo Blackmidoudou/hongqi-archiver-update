@@ -1,14 +1,12 @@
 {
-  "version": "1.19.0",
+  "version": "1.19.1",
   "date": "2026-11-17",
   "notes": [
-    "新：识别行驶证、机动车登记证、电子行驶证；证件命名 委托书号_类型_VIN_日期",
-    "新：写死归位规则——保养=基础三件套+证件；索赔=基础+证件+视频；市场处置=基础+视频不收证件；视频只进索赔/市场处置；不符合规则的保留原文件",
-    "新：终身免费保养业务类型并入保养",
-    "修复：多车牌照片按检测框最大的主体车牌归属（临牌参与比较），背景车车牌不再抢先",
-    "Windows 包为瘦身版 + 平铺结构（约 52MB，一键更新兼容）；安装包托管 Gitee，国内下载更快"
+    "修复 Windows 启动/处理时闪控制台黑框（reg/powershell/ffmpeg 子进程统一隐藏窗口）",
+    "功能与 1.19.0 一致：证件识别（行驶证/机动车登记证/电子行驶证）、写死归位规则、多车牌主体修复",
+    "Windows 包为瘦身版+平铺结构（约 52MB）；mac/win 安装包托管 Gitee"
   ],
   "force": false,
-  "url": "https://gitee.com/black-mi/hongqi-archiver-update/releases/download/v1.19.0/hongqi-archiver-1.19.0-macOS-arm64.zip",
-  "sha256": "7a06eac54563a7b0680659beda6b4339ecb8734158084cab2279e177434cc9f1"
+  "url": "https://gitee.com/black-mi/hongqi-archiver-update/releases/download/v1.19.1/hongqi-archiver-1.19.1-macOS-arm64.zip",
+  "sha256": "8994f8d3972e6599ae4125a443262e2f5cc0295a02ab7249412c7fc9a9cb6d6e"
 }
