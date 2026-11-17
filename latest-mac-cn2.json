@@ -6,9 +6,9 @@
     "新：写死归位规则——保养=基础三件套+证件；索赔=基础+证件+视频；市场处置=基础+视频不收证件；视频只进索赔/市场处置；不符合规则的保留原文件",
     "新：终身免费保养业务类型并入保养",
     "修复：多车牌照片按检测框最大的主体车牌归属（临牌参与比较），背景车车牌不再抢先",
-    "Windows 包保留瘦身 ffmpeg + 平铺结构（约 52MB，一键更新兼容）"
+    "Windows 包为瘦身版 + 平铺结构（约 52MB，一键更新兼容）；安装包托管 Gitee，国内下载更快"
   ],
   "force": false,
-  "url": "https://gh-proxy.com/https://github.com/Blackmidoudou/hongqi-archiver-update/releases/download/v1.19.0/hongqi-archiver-1.19.0-macOS-arm64.zip",
+  "url": "https://gitee.com/black-mi/hongqi-archiver-update/releases/download/v1.19.0/hongqi-archiver-1.19.0-macOS-arm64.zip",
   "sha256": "7a06eac54563a7b0680659beda6b4339ecb8734158084cab2279e177434cc9f1"
 }

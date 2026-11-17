@@ -1,13 +1,14 @@
 {
-  "version": "1.18.0",
-  "date": "2026-11-15",
+  "version": "1.19.0",
+  "date": "2026-11-17",
   "notes": [
-    "安装包体积从 164.5MB 降到 53MB：改用自建精简 ffmpeg 构建，视频抽帧的解码能力全部保留（h264/hevc/mpeg4/h263/ProRes/AV1 等）",
-    "修复：Windows 一键更新此前会报「安装包里没有可用文件」——发布包已改为扁平结构，更新器同时兼容旧结构。升级到本版后，之后的一键更新恢复可用",
-    "Windows 包自带 VC++ 运行库与 ffmpeg/ffprobe，解压即用",
-    "macOS 版仍为 1.17.0，本版改动只涉及 Windows 打包与更新器"
+    "新：识别行驶证、机动车登记证、电子行驶证；证件命名 委托书号_类型_VIN_日期",
+    "新：写死归位规则——保养=基础三件套+证件；索赔=基础+证件+视频；市场处置=基础+视频不收证件；视频只进索赔/市场处置；不符合规则的保留原文件",
+    "新：终身免费保养业务类型并入保养",
+    "修复：多车牌照片按检测框最大的主体车牌归属（临牌参与比较），背景车车牌不再抢先",
+    "Windows 包为瘦身版 + 平铺结构（约 52MB，一键更新兼容）；安装包托管 Gitee，国内下载更快"
   ],
   "force": false,
-  "url": "https://gitee.com/black-mi/hongqi-archiver-update/releases/download/v1.18.0/hongqi-archiver-1.18.0-windows-x64.zip",
-  "sha256": "61265f93e3f5fb9cb4e4d026bdffca971033f157848e4d0da6f2b756fb3d631c"
+  "url": "https://gitee.com/black-mi/hongqi-archiver-update/releases/download/v1.19.0/hongqi-archiver-1.19.0-windows-x64.zip",
+  "sha256": "617e89298a614b516e2118981845e4df71fdc7de56b27d17624c6d95e7df1639"
 }
